@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins';
+    background-color: #f7f7f7;
+    ;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* utility */
+.nav-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.btn {
+    color: #538FFB #5B54FA;
+    font-size: 1.5rem;
+    border: 3px #538FFB solid;
+    padding: 1rem 2rem;
+    border-radius: 15px;
+
+}
+
+.active {
+    font-size: 2rem;
+    color: black;
+    font-weight: 900;
+}
+
+.heading {
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+.lead {
+    color: #504f4f;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 4rem;
+}
+
+.primary-btn {
+    color: #fff;
+    background-image: linear-gradient(to right, #538FFB, #5B54FA);
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+}
+
+.common .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8rem;
+    height: 100%;
+}
+
+.common-content {
+    flex-basis: 50%;
+}
+
+.common-img {
+    flex-basis: 50%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title {
+    margin: 2rem 0;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.para {
+    width: 70%;
+    font-size: 0.9rem;
+    color: #504f4f;
+}
+
+.heading-white {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.btn-white {
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    border: 2px #fff solid;
+    border-radius: 15px;
+}
+
+i {
+    display: block;
+    color: green;
+    margin-right: 1rem;
+}
+
+.testimonial-img {
+    width: 100px;
+}
+
+/* Navabar */
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: space-between;
+}
+
+.navbar .logo img {
+    width: 150px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar ul li {
+    color: #504f4f;
+    font-size: 1.2rem;
+}
+
+/*Server-Section*/
+
+#server {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 80vh;
+}
+
+/* Testing-Section */
+#testing {
+
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    margin-top: 20rem;
+}
+
+/* support-section  */
+#support {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    margin: 20rem auto;
+}
+
+/* Service-content */
+
+#service-content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    margin-top: 20rem;
+    margin-bottom: 5rem;
+}
+
+#service-content .container {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+#service-content .container .heading {
+    font-size: 3rem;
+    flex-basis: 70%;
+}
+
+#service-content .container .lead {
+    flex-basis: 50%;
+}
+
+/* -----Service */
+#service {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+#service .container .card .icon img {
+    width: 50px;
+}
+
+#service .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    height: 500px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#service .conatiner .card {
+    width: 300px;
+    height: 600px;
+}
+
+
+/* Pricing */
+#pricing {
+    margin: 10rem 0;
+    background-image: linear-gradient(to right, #538FFB, #5B54FA);
+}
+
+#pricing .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    height: 60rem;
+}
+
+#pricing .container h2 {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 5rem;
+}
+
+#pricing .container .card-container .price-card {
+    width: 400px;
+    height: 700px;
+    background-color: #fff;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+.price-card .feature p {
+    text-align: left;
+    line-height: 3;
+    margin: 0;
+
+}
+
+.suitable {
+    color: #504f4f;
+    line-height: 2;
+    margin-bottom: 5rem;
+}
+
+.price {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.price span {
+    color: #504f4f;
+}
+
+.price p {
+    margin: 1rem 0;
+    color: #504f4f;
+    margin-bottom: 3rem;
+}
+
+.price-card .btn {
+    margin-left: 3.5rem;
+}
+
+.price-card .primary-btn {
+    margin-left: 3.5rem;
+}
+
+/* Customer */
+#customer .conatiner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+#customer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customer .container .heading {
+    font-size: 3rem;
+    line-height: 3;
+}
+
+#customer .container .lead {
+    text-align: center;
+    width: 800px;
+    color: #504f4f;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+/* testimonial */
+
+#testimonial .container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+#testimonial .container .card {
+    padding: 1.5rem;
+    width: 700px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.testimonial-content {
+    margin-bottom: 3rem;
+}
+
+.testimonial-bottom {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+#worrying {
+    margin: 10rem 0;
+    background: url(/assets/footer-bg.svg)no-repeat center center/cover;
+
+
+}
+
+#worrying .container {
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 450px;
+}
+
+#worrying .container .content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#worrying .container .content .heading-white {
+    font-weight: 900;
+    width: 500px;
+}
+
+#worrying .container .content .lead-white {
+    color: #fff;
+    width: 600px;
+}
+
+/* Footer */
+.footer-logo img{
+    width: 150px;
+    height: 150px;
+    object-fit: none;
+}
+
+#footer {
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1600px;
+}
+#footer .container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.footer-lead {
+    width: 450px;
+}
+.menu h1 {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.menu p {
+    color: #504f4f;
+    line-height: 3;
+}
+
+.social-media h1 {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
